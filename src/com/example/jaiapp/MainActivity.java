@@ -19,7 +19,6 @@ public class MainActivity extends ActionBarActivity{
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 	}
 
@@ -34,7 +33,6 @@ public class MainActivity extends ActionBarActivity{
 	}
 	
 	public void sendMessage(View view){
-		
 		Intent intent = new Intent(this, DisplayMessageActivity.class);
 		EditText editText = (EditText) findViewById(R.id.edit_message);
 		String message = editText.getText().toString();
