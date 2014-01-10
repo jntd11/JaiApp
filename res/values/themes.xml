@@ -3,7 +3,7 @@
     <!-- the theme applied to the application or activity -->
     <style name="CustomActionBarTheme"
            parent="@style/Theme.AppCompat.Light.DarkActionBar">
-           
+         <item name="android:actionBarStyle">@style/MyActionBar</item>
         <!-- Support library compatibility -->
         <item name="actionBarStyle">@style/MyActionBar</item>
     </style>
@@ -12,7 +12,8 @@
     <style name="MyActionBar"
            parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
         
-
+		<item name="android:background">@drawable/ic_action_background</item>
+		<item name="background">@drawable/ic_action_background</item>
         <!-- Support library compatibility -->
         
     </style>
